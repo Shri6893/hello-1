@@ -1,0 +1,64 @@
+{
+  "inventory": [
+    {
+      "name": "Steel",
+      "quantity": 2000,
+      "id": 1
+    },
+    {
+      "name": "Semi Conductors",
+      "quantity": 3000,
+      "id": 2
+    },
+    {
+      "name": "Stainless",
+      "quantity": 5000,
+      "id": 3
+    },
+    {
+      "name": "WIP",
+      "quantity": 234,
+      "id": 4
+    },
+    {
+      "name": "Plastic",
+      "quantity": 15000,
+      "id": 5
+    },
+    {
+      "name": "aditi",
+      "quantity": 2000,
+      "id": 6
+    },
+    {
+      "name": "Prashu",
+      "quantity": 3000,
+      "id": 7
+    },
+    {
+      "name": "deepu",
+      "quantity": 34,
+      "id": 8
+    },
+    {
+      "name": "",
+      "quantity": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "quantity": "",
+      "id": 10
+    },
+    {
+      "name": "Prajwal",
+      "quantity": "3",
+      "id": 11
+    },
+    {
+      "name": "sss",
+      "quantity": "4",
+      "id": 12
+    }
+  ]
+}

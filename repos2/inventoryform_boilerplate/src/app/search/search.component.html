@@ -1,0 +1,20 @@
+<!-- Table to list all Inventory available -->
+
+<input type="text" [(ngModel)]="searchText" />
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+    </tr>
+    <tr *ngFor="let data of inventories | search : searchText">
+        <th>{{data.name}}</th>
+        <th>{{data.quantity}}</th>
+    </tr>
+</table>
+
+<!-- Button to go back to Inventory form view  -->
+<div>
+  <button routerLink="/home">Go to Home</button>
+</div>
+
+

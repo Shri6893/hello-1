@@ -1,0 +1,24 @@
+<!-- heading -->
+<div>
+  <h1>Inventory Details</h1>
+</div>
+
+<!-- Inventory Form to take in name and quantity -->
+
+<div>
+  <form [formGroup]="inventoryFormGroup" (ngSubmit)="onSubmit($event)">
+      <div class="form-control">
+          <label>Name</label>
+          <input type="text" formControlName="name" required="" />
+      </div>
+      <div class="form-control">
+          <label>Quantity</label>
+          <input type="text" formControlName="quantity" required="" />
+      </div>
+      <button type="submit">Add Quantity</button>
+  </form>
+  </div>
+
+
+<!-- Button to route to list and search component -->
+<button routerLink="/search">Go to Search</button>
